@@ -1,0 +1,9 @@
+POST localhost:8081/payment
+Content-Type: application/json
+
+{
+  "type": "FLOOD_DAMAGE",
+  "amount": 300.50,
+  "email": "testuser@email.com"
+
+}

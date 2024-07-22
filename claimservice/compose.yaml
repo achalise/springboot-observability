@@ -1,0 +1,7 @@
+services:
+  otellgtm:
+    image: 'docker.io/grafana/otel-lgtm:latest'
+    ports:
+      - '3000:3000'
+      - '4317:4317'
+      - '4318:4318'
