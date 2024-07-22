@@ -1,6 +1,6 @@
 # SpringBoot Observability
 
-A set up to demonstrate micometer for observability in SpringBoot java applications.
+A set up to demonstrate micometer for observability in SpringBoot java applications as well as the usage of `grafana/otel-lgtm` image for local testing.
 
 More details [here](https://medium.com/@chalise-arun/jvm-applications-observability-with-open-telemetry-and-micrometer-6df8502c8ac1)
 
