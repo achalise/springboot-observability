@@ -21,11 +21,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 
-	runtimeOnly ("io.micrometer:micrometer-registry-otlp")
-	implementation ("io.micrometer:micrometer-tracing-bridge-otel")
-	implementation ("io.opentelemetry:opentelemetry-exporter-otlp")
 
-	//implementation ("io.micrometer:micrometer-registry-signalfx:latest.release")
+	implementation ("io.micrometer:micrometer-registry-signalfx:latest.release")
 
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
